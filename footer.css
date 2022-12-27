@@ -1,0 +1,38 @@
+.footer {
+  background-color: #cedfdb;
+  padding: 40px;
+}
+.container {
+}
+.footer-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-logo img {
+  margin-bottom: 16px;
+}
+.footer-logo-name {
+  color: black;
+}
+.footer-logo-name {
+  margin-top: 25px;
+}
+.footer-text {
+  max-width: 362px;
+  padding-left: 388px;
+  line-height: 24px;
+  color: #070b02;
+}
+.footer-social p {
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.social_icons img {
+  padding-right: 20px;
+}

@@ -1,0 +1,120 @@
+body {
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 440px;
+}
+
+.header {
+  padding: 20px;
+}
+.logo {
+  visibility: visible;
+}
+
+.header {
+}
+.container {
+}
+.header-body {
+  width: 760px;
+  color: #fff;
+  margin-bottom: 130px;
+}
+.header-body img {
+  margin-right: 10px;
+}
+.breadcrumbs {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.breadcrumbs span {
+  font-weight: 800;
+}
+.insight-header_title h1 {
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 21px;
+}
+.insight-header_date {
+  display: flex;
+  align-items: center;
+}
+.header_date-name {
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
+}
+.header_date {
+}
+.header_date {
+  align-items: center;
+}
+.insight-about {
+  position: relative;
+  display: flex;
+}
+.insight-body {
+  color: #fff;
+  padding: 0 30px;
+  width: 770px;
+  position: relative;
+}
+.insight-body h2 {
+  font-size: 32px;
+  color: #070b02;
+  margin-bottom: 16px;
+}
+.insight-body p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #636969;
+  margin-bottom: 24px;
+}
+.sidebar {
+}
+.sidebar-body {
+  border: 1px solid #cedfdb;
+  border-radius: 8px;
+
+  padding: 12px;
+  position: sticky;
+  top: 10px;
+}
+.sidebar-title {
+  margin: 30px 0 16px 0;
+  font-weight: 800;
+  font-size: 24px;
+  color: #070b02;
+}
+.sidebar-text {
+}
+.sidebar-text p {
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 15px;
+}
+.sidebar-text p::before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #389078;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.sidebar-btn {
+  color: #389078;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 34px;
+}
+.sidebar-btn a {
+  text-decoration: none;
+  color: #389078;
+}
+.sidebar-btn ion-icon {
+  margin-left: 10px;
+}
