@@ -1,6 +1,9 @@
 .home_page {
 }
-.container {
+.home_page .container {
+  padding: 20px 20px 0 20px;
+}
+.home_page_header .container {
 }
 .home_page-about {
   display: flex;
@@ -56,8 +59,14 @@ h1 {
   justify-content: space-between;
   padding-bottom: 194px;
 }
+.phone {
+  margin-bottom: -7px;
+}
 .page-footer_body h1 {
   font-size: 40px;
+}
+.page-footer_body img {
+  padding-bottom: -20px;
 }
 .page-footer_title {
 }
@@ -73,12 +82,12 @@ h1 {
 }
 
 .page-footer-items {
-  padding: 0 10px;
   display: flex;
+  padding: 10px;
 }
 
 .footer-item {
-  margin: 0 10px;
+  margin: 0 5px;
   padding: 40px 20px 0 20px;
   background: rgba(29, 44, 7, 0.3);
 
@@ -96,4 +105,90 @@ h1 {
   margin-bottom: 16px;
   line-height: 21px;
   color: #929999;
+}
+
+@media (max-width: 1024px) {
+  body {
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 1056px;
+  }
+  .home_page-body {
+    margin-bottom: 20px;
+  }
+  .phone img {
+    width: 200px;
+  }
+  .home_page-about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .home_page-about img {
+  }
+  .page-footer_title,
+  .page-footer-text,
+  .page-footer_btn {
+    text-align: center;
+  }
+  .home_page-btn img {
+    width: 175px;
+    height: 53px;
+  }
+  .page-footer-text {
+    width: 100%;
+  }
+  .page-footer_btn img {
+    width: 175px;
+    height: 53px;
+  }
+  .page-footer_body,
+  .page-footer-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-item {
+    margin-bottom: 10px;
+    width: 70%;
+  }
+  .home_page-btn {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 1200px;
+  }
+  h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .phone img {
+    width: 100px;
+  }
+  .page-footer_btn a {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home_page-btn img {
+    width: 175px;
+  }
+  .home_page-btn {
+    display: flex;
+    flex-direction: column;
+  }
+  .home_page-btn img {
+    width: 175px;
+    margin-right: 10px;
+
+    height: 53px;
+  }
 }
