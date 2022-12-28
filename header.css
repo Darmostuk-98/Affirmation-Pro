@@ -54,6 +54,11 @@ ul li a {
   .header .logo img {
     width: 50px;
   }
+  .logo a{
+    visibility: hidden;
+
+  }
+    
 
   .footer-logo {
     display: flex;
