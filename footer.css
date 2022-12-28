@@ -21,11 +21,10 @@
   color: black;
 }
 .footer-logo-name {
-  margin-top: 25px;
 }
 .footer-text {
   max-width: 362px;
-  padding-left: 388px;
+
   line-height: 24px;
   color: #070b02;
 }
@@ -35,4 +34,33 @@
 }
 .social_icons img {
   padding-right: 20px;
+}
+
+@media (max-width: 920px) {
+  .footer {
+    text-align: center;
+  }
+  .logo-name {
+    margin-bottom: 20px;
+  }
+  .social_icons {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .social_icons img {
+    padding: 0;
+  }
+  .footer-logo-name {
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  .footer-body {
+    flex-direction: column;
+  }
+  .footer-text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
 }
