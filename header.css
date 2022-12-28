@@ -54,10 +54,7 @@ ul li a {
   .header .logo img {
     width: 50px;
   }
-  .logo a{
-    visibility: hidden;
-
-  }
+ 
     
 
   .footer-logo {
@@ -69,6 +66,10 @@ ul li a {
   }
 }
 @media (max-width: 600px) {
+   .logo a{
+    visibility: hidden;
+
+  }
   .header-logo img {
     width: 30px;
   }
