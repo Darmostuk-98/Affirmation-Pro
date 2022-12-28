@@ -37,3 +37,41 @@ ul li a {
   text-decoration: none;
   color: #fff;
 }
+
+@media (max-width: 1190px) {
+  .header .logo img {
+    width: 70px;
+  }
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  .footer .logo img {
+    width: 70px;
+  }
+}
+@media (max-width: 920px) {
+  .header .logo img {
+    width: 50px;
+  }
+
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  .footer-logo img {
+    width: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .header-logo img {
+    width: 30px;
+  }
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  .footer-logo img {
+    width: 30px;
+  }
+}
