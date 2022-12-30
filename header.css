@@ -47,9 +47,6 @@ ul li a {
 }
 
 @media (max-width: 1190px) {
-  .header .logo img {
-    width: 70px;
-  }
   .footer-logo {
     display: flex;
     align-items: center;
@@ -59,10 +56,6 @@ ul li a {
   }
 }
 @media (max-width: 920px) {
-  .header .logo img {
-    width: 50px;
-  }
-
   .footer-logo {
     display: flex;
     align-items: center;
@@ -74,6 +67,9 @@ ul li a {
 @media (max-width: 600px) {
   .header-logo img {
     width: 30px;
+  }
+  .logo a {
+    visibility: hidden;
   }
   .footer-logo {
     display: flex;
