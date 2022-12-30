@@ -1,9 +1,3 @@
-body {
-  background-image: url(images/bg.png);
-  background-repeat: no-repeat;
-  background-size: 100% 50%;
-}
-
 .logo {
   visibility: visible;
 }
@@ -21,7 +15,11 @@ body {
   color: #fff;
 }
 .blog-section1 {
-  margin-bottom: 300px;
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 300px;
 }
 .blog-section1_body {
   max-width: 558px;
@@ -45,10 +43,16 @@ body {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
   border-radius: 8px;
   margin-bottom: 10px;
-  padding: 15px;
+  padding: 24px;
+}
+.blog-item:hover {
+  border: 1px solid#389078;
+}
+.body-items a {
+  text-decoration: none;
 }
 .blog-body {
-  padding: 0 15px;
+  margin-right: 16px;
 }
 .blog-item_info {
 }
@@ -80,11 +84,12 @@ body {
   margin-left: 8px;
 }
 .blog-section-btn {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 32px 0 96px 0;
 }
 .blog-section-btn a {
+  display: inline-block;
   text-decoration: none;
   color: #fff;
   padding: 16px 32px;
@@ -109,6 +114,11 @@ body {
   }
   .item_info-title {
     text-align: center;
+    font-size: 22px;
+  }
+  .blog-section-btn a {
+    padding: 10px 15px;
+    font-size: 14px;
   }
   .blog-section1_body h1 {
     font-size: 35px;
