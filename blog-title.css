@@ -1,16 +1,15 @@
-body {
-  background-image: url(images/bg.png);
-  background-repeat: no-repeat;
-  background-size: 100% 420px;
-}
-
 .header {
   padding: 20px;
 }
 .logo {
   visibility: visible;
 }
-
+.insight-header {
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 0;
+}
 .header {
 }
 .container {
@@ -52,8 +51,8 @@ body {
   align-items: center;
 }
 .insight-about {
-  position: relative;
   display: flex;
+  margin-top: 10px;
 }
 .insight-body {
   color: #fff;
@@ -126,20 +125,16 @@ body {
 }
 
 @media (max-width: 1190px) {
-  body {
-    background-image: url(images/bg.png);
-    background-repeat: no-repeat;
-    background-size: 100% 410px;
-  }
   .header-body {
     width: 80%;
-    padding-bottom: 70px;
     margin: 0 auto;
   }
   .insight-about {
-    margin: 0 auto;
     flex-direction: column;
     align-items: center;
+  }
+  .insight-about h2 {
+    font-size: 25px;
   }
   .sidebar {
     width: 70%;
@@ -169,16 +164,12 @@ body {
 }
 
 @media (max-width: 920px) {
-  body {
-    background-image: url(images/bg.png);
-    background-repeat: no-repeat;
-    background-size: 100% 410px;
+  .insight-about {
+    padding-top: 10px;
   }
   .insight-about {
-    margin: 0 auto;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
   }
   .insight-about img {
     width: 100%;
@@ -206,7 +197,10 @@ body {
     background-size: 100% 340px;
   }
   .insight-about {
-    margin-top: -70px;
+    padding-top: 80px;
+  }
+  .insight-about {
+    margin-top: -50px;
   }
   .insight-header_title h1 {
     font-size: 20px;
