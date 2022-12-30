@@ -121,11 +121,6 @@ h1 {
 }
 
 @media (max-width: 1024px) {
-  body {
-    background-image: url(images/bg.png);
-    background-repeat: no-repeat;
-    background-size: 100% 1056px;
-  }
   .home_page-body {
     margin-bottom: 20px;
   }
@@ -187,6 +182,13 @@ h1 {
     margin-left: 0;
     width: 50px;
   }
+  .page-footer_body {
+    margin-top: 30px;
+    padding-bottom: 40px;
+  }
+  .home_page_header {
+    padding-top: 90px;
+  }
   .home_page-text {
     font-size: 14px;
   }
@@ -208,12 +210,9 @@ h1 {
   }
   .home_page-btn {
     display: flex;
-    flex-direction: column;
   }
   .home_page-btn img {
     width: 175px;
-    margin-right: 10px;
-
     height: 53px;
   }
 }
