@@ -24,6 +24,8 @@
 }
 .footer-text {
   max-width: 362px;
+  padding-right: 120px;
+  margin-left: auto;
 
   line-height: 24px;
   color: #070b02;
@@ -31,6 +33,9 @@
 .footer-social p {
   margin-bottom: 20px;
   font-weight: 800;
+}
+.social_icons a {
+  text-decoration: none;
 }
 .social_icons img {
   padding-right: 20px;
