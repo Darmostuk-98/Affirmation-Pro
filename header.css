@@ -1,27 +1,33 @@
 .header {
-  padding: 10px;
+  padding: 10px 0;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1;
 }
-.logo {
-  display: flex;
-  align-items: center;
-  visibility: hidden;
-}
+
 .logo img {
   width: 60px;
 }
-.logo a {
-  margin-left: 10px;
+.logo {
+  visibility: hidden;
   text-decoration: none;
   color: #fff;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+.logo:hover {
+  opacity: 0.8;
+}
+.logo span {
+  display: block;
+  margin-left: 10px;
 }
 .nav {
   display: flex;
@@ -44,6 +50,10 @@ ul li a {
   font-weight: 400;
   text-decoration: none;
   color: #fff;
+  transition: 0.3s;
+}
+.header ul li a:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 1190px) {
