@@ -42,6 +42,11 @@ h1 {
 }
 .home_page-btn img {
   margin-right: 20px;
+  transition: 0.3s;
+}
+.home_page-btn img:hover,
+.page-footer_btn img:hover {
+  opacity: 0.8;
 }
 
 .home_page-footer {
@@ -50,7 +55,8 @@ h1 {
 }
 .swiper {
   display: flex;
-  overflow: hidden;
+  justify-content: space-between;
+  padding-top: 32px;
 }
 .swiper img {
   border-radius: 10px;
@@ -181,6 +187,11 @@ h1 {
   .page_body-logo img {
     margin-left: 0;
     width: 50px;
+  }
+
+  .home_page-btn {
+    display: flex;
+    justify-content: space-between;
   }
   .page-footer_body {
     margin-top: 30px;
