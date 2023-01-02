@@ -1,16 +1,12 @@
 .logo {
-  visibility: visible;
+  visibility: visible; 
 }
 .insight-header {
   background-image: url(images/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 130px 0;
-}
-.header {
-}
-.container {
-}
+} 
 .header-body {
   width: 760px;
   color: #fff;
